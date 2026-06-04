@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family:Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background:#0f172a;
     color:white;
 }
@@ -12,18 +12,47 @@ body{
     position:fixed;
     text-align:center;
     padding-top:30px;
+    overflow-y:auto;
 }
 
 .sidebar img{
-    width:150px;
+    width:180px;
+    height:180px;
     border-radius:50%;
+    object-fit:cover;
 }
 
 .sidebar h2{
     margin-top:15px;
 }
 
+.sidebar a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.sidebar a:hover{
+    color:#38bdf8;
+}
+
 .content{
     margin-left:300px;
     padding:40px;
+}
+
+section{
+    margin-bottom:80px;
+}
+
+h1{
+    font-size:48px;
+}
+
+h2{
+    color:#38bdf8;
+}
+
+hr{
+    border:1px solid #334155;
 }

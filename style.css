@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+.sidebar{
+    width:280px;
+    height:100vh;
+    background:#111827;
+    position:fixed;
+    text-align:center;
+    padding-top:30px;
+}
+
+.sidebar img{
+    width:150px;
+    border-radius:50%;
+}
+
+.sidebar h2{
+    margin-top:15px;
+}
+
+.content{
+    margin-left:300px;
+    padding:40px;
+}

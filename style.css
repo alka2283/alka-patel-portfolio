@@ -128,3 +128,10 @@ a:hover{
         font-size:36px;
     }
 }
+.project-image{
+    width:100%;
+    max-width:900px;
+    border-radius:10px;
+    margin:15px 0;
+    border:1px solid #334155;
+}
